@@ -11,7 +11,7 @@ dados = {
         ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"], n
     ),
     "Pagantes": np.random.randint(50, 500, n),
-    "Inadiplentes": np.random.randint(5, 100, n)
+    "Inadimplentes": np.random.randint(5, 100, n)
 
 }
 
