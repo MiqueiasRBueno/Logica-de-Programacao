@@ -1,20 +1,20 @@
 Algoritmo "Conversor de Temperatura"
-// Disciplina  : Linguagem e Lógica de Programação
-// Professor   : Cláudio 
-// Descrição   : Converte a unidade de medida de temperatura
+// Disciplina  : Linguagem e Lï¿½gica de Programaï¿½ï¿½o
+// Professor   : Clï¿½udio 
+// Descriï¿½ï¿½o   : Converte a unidade de medida de temperatura
 //             : de celsius para Fahrenheit
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 01/12/2025
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
 
    celsius, fahrenheit: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
    escreval("Digite a temperatura em celsius:")
    leia(celsius)
    fahrenheit <- (celsius * (9 / 5)) + 32
-   escreva("A temperatura de", celsius, "ºC em fahrenheit é de", fahrenheit, "ºF")
+   escreva("A temperatura de", celsius, "ï¿½C em fahrenheit ï¿½ de", fahrenheit, "ï¿½F")
 Fimalgoritmo
