@@ -3,7 +3,7 @@ import numpy as np
 
 
 #Definir número de registros
-n = 200
+n = 12
 
 # Criar dados fictícios
 dados = {
