@@ -1,5 +1,5 @@
-# Programa de cotação de preços
-# Recebe dois valores e exibe o maior
+''' Programa de cotação de preços
+ Recebe dois valores e exibe o maior'''
 
 maior = menor = 0
 for num in range(1,3):
