@@ -4,8 +4,8 @@ import customtkinter as ctk
 # Configurações iniciais
 # ==============================
 
-ctk.set_aparence_mod("dark")
-ctk.set_default_color_teme("blue")
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("blue")
 
 # ==============================
 # Janela principal
@@ -14,7 +14,7 @@ ctk.set_default_color_teme("blue")
 janela = ctk.CTk()
 janela.title("Calculadora")
 janela.geometry("400x600")
-janela.resizeble(False, False)
+janela.resizable(False, False)
 
 # ==============================
 # Variável global
@@ -87,7 +87,7 @@ display = ctk.CTkEntry(
     janela,
     font = ("Arial", 32),
     justify = "right",
-    heigth = 80
+    height = 80
 )
 display.pack(padx=20, pady=20, fill="x")
 
@@ -105,8 +105,8 @@ frame_botoes.pack(expand=True, fill="both", padx=10, pady=10)
 botoes = [['C', '←', '/', '*'],
           ['7', '8', '9', '-'],
           ['4', '5', '6', '+'],
-          ['1', '1', '3', '='],
-          ['0', '.', ',']
+          ['1', '2', '3', '='],
+          ['0', '.', '%', ',']
           ]
 
 for i, linha in enumerate(botoes):
@@ -119,7 +119,7 @@ for i, linha in enumerate(botoes):
         botao = ctk.CTkButton(
             frame_botoes,
             text=texto,
-            font=('Arial', 20)
+            font=('Arial', 20),
             fg_color=cor,
             hover_color=hover_cor(cor),
             command=lambda t=texto: click(t)
